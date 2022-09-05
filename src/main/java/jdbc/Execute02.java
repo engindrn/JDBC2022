@@ -13,7 +13,8 @@ public class Execute02 {
         //1. Örnek:  region id'si 1 olan "country name" değerlerini çağırın.
         String sql1 = "SELECT country_name FROM countries WHERE region_id = 1";
 
-        //*******REcordları görmek-çağırmak için executeQuery() methodu kullanmalıyız.*******
+        //*******Recordları görmek-çağırmak için executeQuery() methodu kullanmalıyız.*******
+
         ResultSet result1 = st.executeQuery(sql1);     //gelen recordları ResultSet data type ında resullt variable a atadık
                                                        //ResultSet query sonucu dönen dataları alır
         while (result1.next()){   //sıradaki dataya geçmek için next() dedi. boolean old için true oldukça loop devam eder
