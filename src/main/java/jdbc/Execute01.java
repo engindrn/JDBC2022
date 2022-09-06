@@ -11,7 +11,7 @@ public class Execute01 {
         //1.ADIM: Driver a kaydol
         Class.forName("org.postgresql.Driver");
 
-        //2.ADIM:Database e bağlan                     //jdbc API adresi//
+        //2.ADIM:Database e bağlan                     //jdbc API adresi//               //database ismi//
        Connection con= DriverManager.getConnection("jdbc:postgresql://localhost:5432/techproed","postgres","142536ZeK.");
         //getConection method u Connection data type döndürdüğü için bunu Connection data tipinde bir variable koyduk
 

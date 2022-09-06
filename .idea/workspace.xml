@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e112057-ebb5-4150-9919-1dbfdc7e3049" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jdbc/Execute02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jdbc/Execute02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jdbc/Execute01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jdbc/Execute01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,16 +39,17 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/TOSHIBA/Desktop/postgresql-42.5.0.jar&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DMain07">
-    <configuration name="CallableStatement06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdbc.CallableStatement06" />
+  <component name="RunManager" selected="Application.Query03">
+    <configuration name="Query01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.Practice.Query01" />
       <module name="jdbc2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdbc.*" />
+          <option name="PATTERN" value="jdbc.Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,7 +57,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DMain07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Query03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.Practice.Query03" />
+      <module name="jdbc2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbc.Practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jdbc.DMain07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jdbc.DMain07" />
       <module name="jdbc2022" />
       <extension name="coverage">
@@ -69,20 +83,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExecuteQuery03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdbc.ExecuteQuery03" />
-      <module name="jdbc2022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdbc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExecuteUpdate04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="jdbc.ExecuteUpdate04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jdbc.ExecuteUpdate04" />
       <module name="jdbc2022" />
       <extension name="coverage">
@@ -95,7 +96,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreparedStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="jdbc.PreparedStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jdbc.PreparedStatement" />
       <module name="jdbc2022" />
       <extension name="coverage">
@@ -110,7 +111,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DMain07" />
+        <item itemvalue="Application.Query03" />
+        <item itemvalue="Application.Query01" />
+        <item itemvalue="Application.jdbc.DMain07" />
       </list>
     </recent_temporary>
   </component>
