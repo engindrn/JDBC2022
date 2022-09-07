@@ -10,6 +10,7 @@ public class Execute02 {
         Statement st =con.createStatement();
         //artık kodlarımızı execute yapabiliriz (uygula çalıştır demek)
 
+
         //1. Örnek:  region id'si 1 olan "country name" değerlerini çağırın.
         String sql1 = "SELECT country_name FROM countries WHERE region_id = 1";
 
@@ -17,6 +18,7 @@ public class Execute02 {
 
         ResultSet result1 = st.executeQuery(sql1);     //gelen recordları ResultSet data type ında resullt variable a atadık
                                                        //ResultSet query sonucu dönen dataları alır
+
         while (result1.next()){   //sıradaki dataya geçmek için next() dedi. boolean old için true oldukça loop devam eder
 
             System.out.println(result1.getString("country_name"));    //string değer gelecek getStrind dedik

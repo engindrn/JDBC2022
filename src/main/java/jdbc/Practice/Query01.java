@@ -13,11 +13,14 @@ public class Query01 {
                                                                                         "postgres",
                                                                                          "142536ZeK.");
 
-        // 3)Statement olustur.
+        // 3)Statement olustur.    //sql kodlarını yazabilmek için oluşturduk
         Statement st=con.createStatement();
 
         //4)ResultSet
         ResultSet veri=st.executeQuery("select * from ogrenciler");
+        //sql sorgu komutunu Statement kullanarak executeQuery methoduyla çalıştırdık
+        //gelen veriyi ResultSet e atadık //ResultSet query sonucu dönen dataları alır
+
 
         //sonuclari al
         while (veri.next()){

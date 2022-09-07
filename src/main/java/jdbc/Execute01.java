@@ -22,8 +22,7 @@ public class Execute01 {
         //4. Adım: Query çalıştır.
 
 
-
-        //1.Örnek: "workers" adında bir table oluşturup "worker_id,worker_name, worker_salary" sütunlarını ekleyin.
+      //  1.Örnek: "workers" adında bir table oluşturup "worker_id,worker_name, worker_salary" sütunlarını ekleyin.
 
       // st.execute("CREATE TABLE workers(worker_id VARCHAR(50), worker_name VARCHAR(50), worker_salary INT)");
         // method içine uzun bişey yazılması tavsiye edilemz bu yüzden sql mesajımızı String bir variable atayacağız

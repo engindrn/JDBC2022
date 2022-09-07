@@ -8,15 +8,15 @@ public class Query02 {
 
 
         Class.forName("org.postgresql.Driver");
-
         Connection con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/techproed",
                 "postgres",
                 "142536ZeK.");
         Statement st = con.createStatement();
 
-        ResultSet data = st.executeQuery("select * from ogrenciler where cinsiyet='E'");
 
         //SORU: Öğrenciler tablosundaki Erkek möğrencileri listeleyiniz?
+
+        ResultSet data = st.executeQuery("select * from ogrenciler where cinsiyet='E'");
 
         while (data.next()) {
             //System.out.println(data.getInt(1) + data.getString(2) +

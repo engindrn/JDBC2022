@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e112057-ebb5-4150-9919-1dbfdc7e3049" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jdbc/Execute01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jdbc/Execute01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jdbc/Execute02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jdbc/Execute02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jdbc/Practice/Query01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jdbc/Practice/Query01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jdbc/Practice/Query02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jdbc/Practice/Query02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +48,34 @@
   }
 }</component>
   <component name="RunManager" selected="Application.Query03">
+    <configuration name="Execute01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.Execute01" />
+      <module name="jdbc2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Query01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jdbc.Practice.Query01" />
+      <module name="jdbc2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbc.Practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Query02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.Practice.Query02" />
       <module name="jdbc2022" />
       <extension name="coverage">
         <pattern>
@@ -83,36 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="jdbc.ExecuteUpdate04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdbc.ExecuteUpdate04" />
-      <module name="jdbc2022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdbc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="jdbc.PreparedStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdbc.PreparedStatement" />
-      <module name="jdbc2022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdbc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Query03" />
+        <item itemvalue="Application.Query02" />
         <item itemvalue="Application.Query01" />
+        <item itemvalue="Application.Execute01" />
         <item itemvalue="Application.jdbc.DMain07" />
       </list>
     </recent_temporary>
