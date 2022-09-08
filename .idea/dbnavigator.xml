@@ -29,7 +29,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="8a18e3ec-e5b9-4b08-9e2c-5c41c4bb6220">
-      <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[select * from ogrenciler]]></console>
+      <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[select * from ogrenciler;]]></console>
     </connection>
     <connection id="56076068-a739-4050-af85-55ab5703a8a2">
       <console name="Connection 1" type="STANDARD" schema="" session="Main" />
@@ -92,7 +92,7 @@
           <url-type value="DATABASE" />
           <host value="localhost" />
           <port value="5432" />
-          <database value="postgres" />
+          <database value="techproed" />
           <type value="USER_PASSWORD" />
           <user value="postgres" />
           <deprecated-pwd value="MTQyNTM2WmVLLg==" />
